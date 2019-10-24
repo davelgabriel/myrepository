@@ -1,3 +1,3 @@
 # Bem vindo
-- To no começo
+- Tô no começo
 - Me ajuda
