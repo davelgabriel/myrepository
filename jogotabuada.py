@@ -20,7 +20,7 @@ def main(args):
 	x = randint(0,5)
 	y = randint(0,5)
 	z = x*y
-	print("Qual a respota correta da multiplicação?")
+	print("Qual a resposta correta da multiplicação?")
 	resposta=int(input("{} x {} = ".format(x,y)))
 	cont=0
 	
@@ -32,18 +32,18 @@ def main(args):
 				x = randint(0,5)
 				y = randint(0,5)
 				z = x*y
-				print("Qual a respota correta da multiplicação?")
+				print("Qual a resposta correta da multiplicação?")
 				resposta=int(input("{} x {} = ".format(x,y)))
 				limpa()
 				cont+=1
-	if cont == 2:
-		while resposta == z and cont<2:
+	if cont > 2:
+		while resposta == z:
 			i=2
 			print("NIVEL",i)
 			x = randint(0,5)
 			y = randint(0,5)
 			z = x*y
-			print("Qual a respota correta da multiplicação?")
+			print("Qual a resposta correta da multiplicação?")
 			resposta=int(input("{} x {} = ".format(x,y)))
 			limpa()
 			cont+=1
